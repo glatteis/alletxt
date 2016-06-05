@@ -7,7 +7,7 @@ if Gem.win_platform?
   OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 end
 
-DEBUG_KEYS = true
+DEBUG_KEYS = false
 
 if DEBUG_KEYS
   require_relative 'debug_keys'
