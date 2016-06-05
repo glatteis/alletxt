@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>Tweete irgendwas.</title>
+  <style>
+    body {
+      font-family: Arial serif;
+      text-align: center;
+    }
+    h1 {
+      font-size: 40px;
+
+    }
+    label {
+      font-size: 40px;
+    }
+    textarea {
+      width: 80%;
+      height: 50%;
+      resize: none;
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+<h1>Tweete irgendetwas.</h1>
+<form method="get" action="/tweet">
+  <div>
+    <label for="text-input">Tweet: </label><br/>
+    <!--suppress CheckTagEmptyBody --><textarea id="text-input" name="tweet"></textarea>
+    <br/><input type="submit" name="Tweeten!"/>
+  </div>
+</form>
+</body>
+</html>
